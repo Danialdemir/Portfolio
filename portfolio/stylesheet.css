@@ -1,0 +1,439 @@
+ * {
+     box-sizing: border-box;
+     margin: 0;
+     padding: 0;
+ }
+ 
+ body {
+     font-family: "helvetica neue", "helvetica", "arial";
+     background-color: white;
+ }
+ 
+ header {
+     width: 100%;
+     height: 29vw;
+     background-color: beige;
+     background-image: url("img/splash2.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ 
+ p {
+     font-family: 'Lato', sans-serif;
+     font-size: 1.1vw;
+ }
+ 
+ .description h1 {
+     font-family: 'Economica', sans-serif;
+     font-size: 10vw;
+     padding: 8vw 5vw 8vw 5vw;
+ }
+ 
+ .de5 {
+     width: 99vw;
+     text-align: center;
+     padding: 4vw 4vw 4vw 4vw;
+ }
+ 
+ .hurtige3 {
+     background-image: url(img/buildingboi.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+ 
+ .de5 h1 {
+     font-family: 'Economica', sans-serif;
+     font-size: 5vw;
+     text-align: center;
+     padding-bottom: 3vw;
+ }
+ 
+ .circle {
+     background-color: white;
+     width: 20vw;
+     height: 20vw;
+     border-radius: 50%;
+     display: inline-block;
+     text-align: center;
+     margin-left: 12vw;
+     opacity: 0.7;
+     vertical-align: top;
+     margin-bottom: 4vw;
+ }
+ 
+ .circle p {
+     padding-top: 9vw;
+     font-size: 1.6vw;
+ }
+ 
+ .femtekst {
+     font-family: 'Lato', sans-serif;
+ }
+ 
+ h1 {
+     font-family: 'Economica', sans-serif;
+     font-size: 3vw;
+     text-align: center
+ }
+ 
+ .container {
+     width: 100vw;
+     display: flex;
+     flex-wrap: wrap;
+ }
+ 
+ .deco {
+     width: 20vw;
+     height: 15vw;
+     background-image: url(img/deco2.jpg);
+     background-size: contain;
+     background-repeat: no-repeat;
+     margin-left: 14vw;
+     text-decoration: none;
+ }
+ 
+ .box p {
+     text-align: center;
+     margin-top: 5vw;
+     display: none;
+     color: black;
+     font-size: 3vw;
+ }
+ 
+ .deco:hover {
+     opacity: 0.9;
+ }
+ 
+ .box:hover p {
+     display: block;
+ }
+ 
+ .enzo {
+     width: 20vw;
+     height: 10vw;
+     background-image: url(img/enzo.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     margin-left: 4vw;
+     text-decoration: none;
+ }
+ 
+ .enzo:hover {
+     opacity: 0.9;
+ }
+ 
+ .privatsnak {
+     width: 20vw;
+     height: 13vw;
+     background-image: url(img/privatsnak.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     margin-left: 4vw;
+     text-decoration: none;
+ }
+ 
+ .privatsnak:hover {
+     opacity: 0.9;
+ }
+ 
+ .fredagsbar {
+     width: 20vw;
+     height: 15vw;
+     background-image: url(img/app1.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     margin-left: 31vw;
+     text-decoration: none;
+ }
+ 
+ .fredagsbar:hover {
+     opacity: 0.9;
+ }
+ 
+ .fredagsbar p {
+     text-align: center;
+     margin-top: 5vw;
+     display: none;
+     color: black;
+     font-size: 3vw;
+     margin-right: 5vw;
+ }
+ 
+ .republikken {
+     width: 20vw;
+     height: 15vw;
+     background-image: url(img/appicon.png);
+     background-size: contain;
+     background-repeat: no-repeat;
+     text-decoration: none;
+ }
+ 
+ .republikken p {
+     text-align: center;
+     margin-top: 5vw;
+     display: none;
+     color: black;
+     font-size: 3vw;
+     margin-right: 5vw;
+ }
+ 
+ .republikken:hover {
+     opacity: 0.9;
+ }
+ 
+ .sectionwrapper {
+     display: inline-block;
+     background-color: #3e3b3b;
+     width: 100vw;
+     padding: 2vw 0vw 2vw 0vw;
+ }
+ 
+ .stilartsiteoverskrift h1 {
+     font-size: 2.5vw;
+     text-align: center;
+ }
+ 
+ .overskriftdeco {
+     color: white;
+ }
+ 
+ .stilartsitetekst {
+     display: inline-block;
+     width: 50vw;
+     text-align: center;
+     vertical-align: top;
+     font-family: 'Lato', sans-serif;
+     color: white;
+ }
+ 
+ .stilartsitetekst p {
+     width: 40vw;
+     margin-left: auto;
+     margin-right: auto;
+     font-size: 1.1vw;
+     font-family: 'Lato', sans-serif;
+ }
+ 
+ .stilartsitetekst .liste {
+     text-align: left;
+ }
+ 
+ .billedetiltekst {
+     width: 49vw;
+     display: inline-block;
+     text-align: center;
+ }
+ 
+ .stilartbillede {
+     width: 13vw;
+ }
+ 
+ .link-til-projekt {
+     text-decoration: none;
+     color: #000000;
+     font-size: 1.3vw;
+     border: solid;
+     padding: 1vw 2vw;
+     border-radius: 20vw;
+     font-family: 'Lato', sans-serif;
+ }
+ 
+ .link-til-deco {
+     text-decoration: none;
+     color: white;
+     font-size: 1.3vw;
+     border: solid;
+     padding: 1vw 2vw;
+     border-radius: 20vw;
+     font-family: 'Lato', sans-serif;
+ }
+ 
+ .ux {
+     background-color: white;
+     opacity: 0.8;
+     width: 90vw;
+     margin-left: 5%;
+ }
+ 
+ .link-til-ux {
+     text-decoration: none;
+     color: #000000;
+     font-size: 1.3vw;
+     border: solid;
+     padding: 1vw 2vw;
+     border-radius: 20vw;
+     font-family: 'Lato', sans-serif;
+ }
+ 
+ .column2 {
+     display: inline-block;
+     width: 100vw;
+ }
+ 
+ .s2_left,
+ .s2_right {
+     padding-top: 3vw;
+     height: 55vw;
+     width: 49.7vw;
+     display: inline-block;
+     vertical-align: top;
+     text-align: center;
+ }
+ 
+ .s2_left {
+     background-color: #cecece;
+ }
+ 
+ .s2_right {
+     background-color: #cecece;
+ }
+ 
+ .videooverskrift {
+     margin-top: 1vw;
+ }
+ 
+ .videotekst,
+ .sextekst {
+     margin-top: 2vw;
+     padding: 0 6vw 0 6vw;
+ }
+ 
+ .enzotekst {
+     padding: 0 6vw 0 6vw;
+ }
+ 
+ .animation {
+     text-align: center;
+     margin-top: 1vw;
+ }
+ 
+ .deledilemma_billede {
+     width: 80%;
+ }
+ 
+ .sextekst {
+     margin-top: 1vw;
+ }
+ 
+ section3_indhold {
+     display: inline-block;
+ }
+ 
+ .s3_left,
+ .s3_right {
+     display: inline-block;
+     width: 49%;
+     padding: 0 5vw;
+     margin-top: 3vw;
+     vertical-align: top;
+     font-family: 'Lato', sans-serif;
+ }
+ 
+ .sectionwrapper3 {
+     padding-top: 5vw;
+     background-image: url(img/buildingboi.jpg);
+     text-align: center;
+     height: 40vw;
+     font-family: 'Lato', sans-serif;
+     background-size: cover;
+ }
+ 
+ .section3_indhold {
+     background-color: white;
+     opacity: 0.8;
+     width: 90vw;
+     height: 30vw;
+     margin-left: 5%;
+ }
+ 
+ footer {
+     height: 5.5vw;
+     font-family: 'Lato', sans-serif;
+     font-size: 1vw;
+     color: white;
+     display: inline-block;
+     background-color: #3e3b3b;
+     width: 100vw;
+     display: inline-block;
+     text-align: center;
+     padding-top: 1vw;
+ }
+ 
+ .copyright p {
+     text-align: right;
+     display: inline-block;
+ }
+ 
+ .mail p {
+     text-align: center;
+     display: inline-block;
+ }
+ 
+ .info p {
+     text-align: left;
+     display: inline-block;
+ }
+ /*///MEDIA QUARIES////*/
+ /* Desktop responsiv*/
+ /* Cirklerne øverst på sitet*/
+ 
+ @media screen and (min-width: 2560px) {
+     /* ENZO youtunr video - iframen*/
+     iframe {
+         width: 300px;
+         height: 150px;
+     }
+     /* UX link-knapper nederst på sitet*/
+     .link-til-ux {
+         font-size: 1vw;
+         border-radius: 9vw;
+     }
+ }
+ /* IPAD responsiv*/
+ 
+ @media screen and (max-width: 768px) {
+     /* Cirklerne øverst på sitet til ipad*/
+     .circle {
+         display: block;
+         width: 20vw;
+         height: 20vw;
+         margin: 0 auto 3vw auto;
+     }
+     /* stilsartsside sektionen på sitet til ipad*/
+     .stilartsitetekst {
+         display: block;
+         margin-left: auto;
+         margin-right: auto;
+     }
+     .stilartsitetekst p {
+         font-size: 2vw;
+     }
+     .billedetiltekst {
+         width: 100vw;
+         margin-top: 6vw;
+     }
+     .stilartbillede {
+         width: 20vw;
+     }
+     .link-til-projekt {
+         border: 1px solid;
+         border-radius: 20vw;
+         padding-top: 2vw;
+         padding-bottom: 2vw;
+     }
+     .s2_left,
+     .s2_right {
+         height: 100vw;
+         border-bottom: solid 2px white;
+     }
+     .s2_left p,
+     .s2_right p {
+         font-size: 1.7vw;
+     }
+     .sectionwrapper3 {
+         height: 60vw;
+     }
+     .section3_indhold {
+         height: 44vw;
+     }
+ }
